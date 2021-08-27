@@ -1,0 +1,143 @@
+body {
+  background-color: #C9CBFF;
+  text-align: center;
+  font-family: 'Sriracha', cursive;
+}
+
+.pattern-img {
+  position: relative;
+  bottom: 100px;
+}
+
+.order-summary {
+  background-color: #fff;
+  width: 450px;
+  height: 650px;
+  position: absolute;
+  left: 50%;
+  margin-left: -225px;
+  top: 50%;
+  margin-top: -325px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+/* Big Image */
+.hero-img {
+  border-radius: 20px 20px 0 0;
+}
+
+/* Big title */
+.big-title {
+  padding: 40px 0 6px 0;
+  font-weight: bold;
+}
+
+p {
+  padding: 0 55px 15px 55px;
+  color: grey;
+}
+
+/* payment button */
+.payment-button {
+  display: block;
+}
+
+/* annual plan section */
+.annual-plan {
+  background-color: #C9CBFF;
+  width: 380px;
+  height: 85px;
+  /* position: relative;
+  left: 50%;
+  margin-left: -190px; */
+  border-radius: 20px;
+  display: relative;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+
+.music-icon {
+  float: left;
+  position: relative;
+  top: 50%;
+  margin: -24px 15px auto 15px;
+}
+
+.plan-text {
+  text-align: left;
+  width: 100px;
+  float: left;
+  position: relative;
+  top: 50%;
+  margin-top: -27px;
+}
+
+h2 {
+  font-size: 1rem;
+}
+
+h3 {
+  font-size: 1rem;
+  color: grey;
+}
+
+.make-change {
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  color: #776D8A;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 17px;
+}
+
+.make-change:hover {
+  color: #fff;
+}
+
+/* Payment button */
+.payment-button {
+  display: block;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  color: #FFFFFF;
+  font-family: Georgia;
+  font-size: 20px;
+  padding: 8px 80px 8px 80px;
+  background-color: #7734B9;
+  -webkit-box-shadow: 1px 1px 20px 0 #7734B9;
+  -moz-box-shadow: 1px 1px 20px 0 #7734B9;
+  box-shadow: 1px 1px 20px 0 #7734B9;
+  text-decoration: none;
+  /* display: inline-block; */
+  cursor: pointer;
+  margin: 20px auto 30px auto;
+
+}
+
+/* cancel button */
+.cancel-button {
+  display: block;
+  margin-bottom: 10px;
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  color: black;
+  padding: 0;
+  /* position: relative;
+  left: 50%;
+  margin-left: -12px; */
+  margin-left: auto;
+  margin-right: auto;
+}
